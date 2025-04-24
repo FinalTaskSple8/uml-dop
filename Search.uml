@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlvmprofile="pathmap://UML_PROFILES/uml-vm-profile.profile.uml" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ pathmap://UML_PROFILES/uml-vm-profile.profile.uml pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml#_-5XC0I-gEe-JbtsgPnxLSg">
+  <uml:Model xmi:id="_hJBmECDpEfC6AqtRt3KP1g" name="Search">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_hLDmYCDpEfC6AqtRt3KP1g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VL6o8CDrEfC6AqtRt3KP1g" name="Search">
+      <packagedElement xmi:type="uml:Package" xmi:id="_iJD00CDrEfC6AqtRt3KP1g" name="MSearch">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6mCEkCDsEfC6AqtRt3KP1g" name="Search">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9NU28CDsEfC6AqtRt3KP1g" name="searchHotels" visibility="private" concurrency="concurrent">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_DRpw4CDtEfC6AqtRt3KP1g" name="query">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_k6Dq4CDtEfC6AqtRt3KP1g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteObject"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qi5isCDtEfC6AqtRt3KP1g" name="SearchImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6rZQQCDtEfC6AqtRt3KP1g" name="hotels">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteArray"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AMmPACDuEfC6AqtRt3KP1g"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AM0RcCDuEfC6AqtRt3KP1g" value="*"/>
+          </ownedAttribute>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_DD9dsCDuEfC6AqtRt3KP1g" name="searchHotels" visibility="private">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vmm5gCDuEfC6AqtRt3KP1g" name="query">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Zd7JUCDuEfC6AqtRt3KP1g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteObject"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_zlhkUCDuEfC6AqtRt3KP1g" name="DSearchLogging">
+        <packagedElement xmi:type="uml:Class" xmi:id="_76wJ4CDuEfC6AqtRt3KP1g" name="SearchImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_UyJhQCDvEfC6AqtRt3KP1g" name="searchimpl" type="_qi5isCDtEfC6AqtRt3KP1g" association="_UyHsECDvEfC6AqtRt3KP1g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UyKIUCDvEfC6AqtRt3KP1g"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UyKvYCDvEfC6AqtRt3KP1g" value="1"/>
+          </ownedAttribute>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Ctnk0CDvEfC6AqtRt3KP1g" name="logSearch" visibility="private">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_JolL0CDvEfC6AqtRt3KP1g" name="query">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UyHsECDvEfC6AqtRt3KP1g" memberEnd="_UyJhQCDvEfC6AqtRt3KP1g _UyLWcCDvEfC6AqtRt3KP1g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UyI6MCDvEfC6AqtRt3KP1g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UyI6MSDvEfC6AqtRt3KP1g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UyLWcCDvEfC6AqtRt3KP1g" name="searchimpl" type="_76wJ4CDuEfC6AqtRt3KP1g" association="_UyHsECDvEfC6AqtRt3KP1g"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hKatMCDpEfC6AqtRt3KP1g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hKdwgCDpEfC6AqtRt3KP1g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hKdwgSDpEfC6AqtRt3KP1g" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hKdwgiDpEfC6AqtRt3KP1g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hKdwgyDpEfC6AqtRt3KP1g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hKdwhCDpEfC6AqtRt3KP1g" key="Date" value="2024-10-21"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hKdwhSDpEfC6AqtRt3KP1g" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hKb7UCDpEfC6AqtRt3KP1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml#_-5XC0I-gEe-JbtsgPnxLSg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml#_XI61gJkHEeyPP7xacetQkQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xvZbECDsEfC6AqtRt3KP1g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xvaCICDsEfC6AqtRt3KP1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <umlvmprofile:vm xmi:id="_Ys6qgCDrEfC6AqtRt3KP1g" base_Package="_VL6o8CDrEfC6AqtRt3KP1g"/>
+  <umlvmprofile:module xmi:id="_jlRUICDrEfC6AqtRt3KP1g" base_Package="_iJD00CDrEfC6AqtRt3KP1g"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_xvapMCDsEfC6AqtRt3KP1g" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <umlvmprofile:delta xmi:id="_4dO6ICDuEfC6AqtRt3KP1g" base_Package="_zlhkUCDuEfC6AqtRt3KP1g"/>
+  <umlvmprofile:modifiedClass xmi:id="_9c4rACDuEfC6AqtRt3KP1g" base_Class="_76wJ4CDuEfC6AqtRt3KP1g"/>
+  <umlvmprofile:adds xmi:id="_EKnHQCDvEfC6AqtRt3KP1g" base_Operation="_Ctnk0CDvEfC6AqtRt3KP1g"/>
+  <umlvmprofile:modifies xmi:id="_Xz0igCDvEfC6AqtRt3KP1g" base_Association="_UyHsECDvEfC6AqtRt3KP1g"/>
+</xmi:XMI>
