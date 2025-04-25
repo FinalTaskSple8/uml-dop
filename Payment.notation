@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ywX_wCHEEfCj9OPEXTPaKQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_2iuQACHEEfCj9OPEXTPaKQ" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2iu3ECHEEfCj9OPEXTPaKQ" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2iu3ESHEEfCj9OPEXTPaKQ" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_gfWYECHHEfCj9OPEXTPaKQ" type="Interface_Shape" gradient="16777215, -1, 1">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gfWYEiHHEfCj9OPEXTPaKQ" type="Interface_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_gfWYEyHHEfCj9OPEXTPaKQ" type="Interface_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_gfWYFCHHEfCj9OPEXTPaKQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gfWYFSHHEfCj9OPEXTPaKQ" type="Interface_AttributeCompartment">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jZLr8CHHEfCj9OPEXTPaKQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jZLr8SHHEfCj9OPEXTPaKQ" key="collapsed" value="true"/>
+          </eAnnotations>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_gfWYFiHHEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_gfWYFyHHEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_gfWYGCHHEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gfWYGSHHEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gfW_ICHHEfCj9OPEXTPaKQ" type="Interface_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="__zBPUCHHEfCj9OPEXTPaKQ" type="Operation_InterfaceOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#__y-MACHHEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__zBPUSHHEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_gfW_ISHHEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_gfW_IiHHEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_gfW_IyHHEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gfW_JCHHEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gfW_JSHHEfCj9OPEXTPaKQ" type="Interface_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_gfW_JiHHEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_gfW_JyHHEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_gfW_KCHHEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gfW_KSHHEfCj9OPEXTPaKQ"/>
+        </children>
+        <element xmi:type="uml:Interface" href="Payment.uml#_gfUi4CHHEfCj9OPEXTPaKQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gfWYESHHEfCj9OPEXTPaKQ" x="14" y="16"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RQTlkCHIEfCj9OPEXTPaKQ" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RQUMoCHIEfCj9OPEXTPaKQ" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RQUMoSHIEfCj9OPEXTPaKQ" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQUMoiHIEfCj9OPEXTPaKQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_RQUMoyHIEfCj9OPEXTPaKQ" type="Class_AttributeCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_jztPUCHIEfCj9OPEXTPaKQ" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Payment.uml#_jzlTgCHIEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jztPUSHIEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_RQUMpCHIEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RQUMpSHIEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RQUMpiHIEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RQUMpyHIEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_RQUMqCHIEfCj9OPEXTPaKQ" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_B0uL4CHJEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_B0gJcCHJEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_B0uL4SHJEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_RQUMqSHIEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RQUMqiHIEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RQUMqyHIEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RQUMrCHIEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_RQUMrSHIEfCj9OPEXTPaKQ" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_RQUMriHIEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RQUMryHIEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RQUMsCHIEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RQUMsSHIEfCj9OPEXTPaKQ"/>
+        </children>
+        <element xmi:type="uml:Class" href="Payment.uml#_RQS-gCHIEfCj9OPEXTPaKQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RQTlkSHIEfCj9OPEXTPaKQ" x="254" y="16"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_SPbq0CHJEfCj9OPEXTPaKQ" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SPbq0iHJEfCj9OPEXTPaKQ" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SPbq0yHJEfCj9OPEXTPaKQ" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_SPcR4CHJEfCj9OPEXTPaKQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_SPcR4SHJEfCj9OPEXTPaKQ" type="Class_AttributeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_SPcR4iHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SPcR4yHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SPcR5CHJEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SPcR5SHJEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_SPcR5iHJEfCj9OPEXTPaKQ" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_Vqaj8CHJEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_VqTPMCHJEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Vqaj8SHJEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_SPcR5yHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SPcR6CHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SPcR6SHJEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SPcR6iHJEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_SPcR6yHJEfCj9OPEXTPaKQ" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_SPcR7CHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SPcR7SHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SPcR7iHJEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SPcR7yHJEfCj9OPEXTPaKQ"/>
+        </children>
+        <element xmi:type="uml:Class" href="Payment.uml#_SPbDwCHJEfCj9OPEXTPaKQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SPbq0SHJEfCj9OPEXTPaKQ" x="54" y="176"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fvy4gCHJEfCj9OPEXTPaKQ" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_fvy4giHJEfCj9OPEXTPaKQ" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_fvy4gyHJEfCj9OPEXTPaKQ" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_fvy4hCHJEfCj9OPEXTPaKQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_fvy4hSHJEfCj9OPEXTPaKQ" type="Class_AttributeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_fvy4hiHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_fvy4hyHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_fvy4iCHJEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fvy4iSHJEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_fvy4iiHJEfCj9OPEXTPaKQ" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_l1ay8CHJEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_l1SQECHJEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_l1ay8SHJEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_fvy4iyHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_fvy4jCHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_fvy4jSHJEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fvy4jiHJEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_fvy4jyHJEfCj9OPEXTPaKQ" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_fvy4kCHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_fvy4kSHJEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_fvy4kiHJEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fvy4kyHJEfCj9OPEXTPaKQ"/>
+        </children>
+        <element xmi:type="uml:Class" href="Payment.uml#_fvxqYCHJEfCj9OPEXTPaKQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fvy4gSHJEfCj9OPEXTPaKQ" x="254" y="176" width="166"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_2iu3EiHEEfCj9OPEXTPaKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2iu3EyHEEfCj9OPEXTPaKQ"/>
+    </children>
+    <element xmi:type="uml:Package" href="Payment.uml#_2itB4CHEEfCj9OPEXTPaKQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2iuQASHEEfCj9OPEXTPaKQ" x="240" y="240" width="481" height="381"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HIVXYCHFEfCj9OPEXTPaKQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_HIVXYSHFEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HIVXYyHFEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Package" href="Payment.uml#_2itB4CHEEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HIVXYiHFEfCj9OPEXTPaKQ" x="440" y="240"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7xV3sCHJEfCj9OPEXTPaKQ" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7xWewCHJEfCj9OPEXTPaKQ" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7xWewSHJEfCj9OPEXTPaKQ" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_GIc1cCHKEfCj9OPEXTPaKQ" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GIc1ciHKEfCj9OPEXTPaKQ" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_GIc1cyHKEfCj9OPEXTPaKQ" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GIc1dCHKEfCj9OPEXTPaKQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GIc1dSHKEfCj9OPEXTPaKQ" type="Class_AttributeCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_SLfJgCHKEfCj9OPEXTPaKQ" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Payment.uml#_SLUKYCHKEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SLfJgSHKEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_GIc1diHKEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GIc1dyHKEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GIc1eCHKEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GIc1eSHKEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GIc1eiHKEfCj9OPEXTPaKQ" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_IYEusCHKEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_IX-oECHKEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IYEusSHKEfCj9OPEXTPaKQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_m7vsYCHKEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_m7oXoCHKEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_m7vsYSHKEfCj9OPEXTPaKQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_sHYDwCHKEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_sHOSwCHKEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_sHYDwSHKEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_GIc1eyHKEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GIc1fCHKEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GIc1fSHKEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GIc1fiHKEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GIc1fyHKEfCj9OPEXTPaKQ" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_GIc1gCHKEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GIc1gSHKEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GIc1giHKEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GIc1gyHKEfCj9OPEXTPaKQ"/>
+        </children>
+        <element xmi:type="uml:Class" href="Payment.uml#_GIcOYCHKEfCj9OPEXTPaKQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GIc1cSHKEfCj9OPEXTPaKQ" x="14" y="16" width="201" height="161"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_PcJOZCHKEfCj9OPEXTPaKQ" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PcJOZSHKEfCj9OPEXTPaKQ"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PcJOZyHKEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="Payment.uml#_GIcOYCHKEfCj9OPEXTPaKQ"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PcJOZiHKEfCj9OPEXTPaKQ" x="214" y="16"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7xWewiHJEfCj9OPEXTPaKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7xWewyHJEfCj9OPEXTPaKQ"/>
+    </children>
+    <element xmi:type="uml:Package" href="Payment.uml#_7xVQoCHJEfCj9OPEXTPaKQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7xV3sSHJEfCj9OPEXTPaKQ" x="240" y="640" width="260" height="240"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_DywJZCHKEfCj9OPEXTPaKQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_DywJZSHKEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_DywJZyHKEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Package" href="Payment.uml#_7xVQoCHJEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DywJZiHKEfCj9OPEXTPaKQ" x="440" y="640"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_x981kCHKEfCj9OPEXTPaKQ" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x981kiHKEfCj9OPEXTPaKQ" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_x981kyHKEfCj9OPEXTPaKQ" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HRY-ACHLEfCj9OPEXTPaKQ" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_HRY-AiHLEfCj9OPEXTPaKQ" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_HRY-AyHLEfCj9OPEXTPaKQ" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_HRY-BCHLEfCj9OPEXTPaKQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HRY-BSHLEfCj9OPEXTPaKQ" type="Class_AttributeCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_MoKOYCHLEfCj9OPEXTPaKQ" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Payment.uml#_MoC5oCHLEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_MoKOYSHLEfCj9OPEXTPaKQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Psb3sCHLEfCj9OPEXTPaKQ" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Payment.uml#_PsStwCHLEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Psb3sSHLEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HRY-BiHLEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HRY-ByHLEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HRY-CCHLEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRY-CSHLEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HRY-CiHLEfCj9OPEXTPaKQ" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_oFRq0CHLEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_oFGrsCHLEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_oFRq0SHLEfCj9OPEXTPaKQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_2M0NQCHLEfCj9OPEXTPaKQ" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Payment.uml#_2MsRcCHLEfCj9OPEXTPaKQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2M0NQSHLEfCj9OPEXTPaKQ"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HRY-CyHLEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HRY-DCHLEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HRY-DSHLEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRY-DiHLEfCj9OPEXTPaKQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HRY-DyHLEfCj9OPEXTPaKQ" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HRY-ECHLEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HRY-ESHLEfCj9OPEXTPaKQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HRY-EiHLEfCj9OPEXTPaKQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRY-EyHLEfCj9OPEXTPaKQ"/>
+        </children>
+        <element xmi:type="uml:Class" href="Payment.uml#_HRXv4CHLEfCj9OPEXTPaKQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRY-ASHLEfCj9OPEXTPaKQ" x="14" y="13" width="221" height="140"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_x981lCHKEfCj9OPEXTPaKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x981lSHKEfCj9OPEXTPaKQ"/>
+    </children>
+    <element xmi:type="uml:Package" href="Payment.uml#_x97ncCHKEfCj9OPEXTPaKQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x981kSHKEfCj9OPEXTPaKQ" x="540" y="643" width="300" height="237"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_x-BHCiHKEfCj9OPEXTPaKQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_x-BHCyHKEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_x-BuECHKEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Package" href="Payment.uml#_x97ncCHKEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x-BHDCHKEfCj9OPEXTPaKQ" x="820" y="1110"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HRgSwCHLEfCj9OPEXTPaKQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_HRgSwSHLEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HRgSwyHLEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Payment.uml#_HRXv4CHLEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRgSwiHLEfCj9OPEXTPaKQ" x="1115" y="1120"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_ywX_wSHEEfCj9OPEXTPaKQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ywX_wiHEEfCj9OPEXTPaKQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ywX_wyHEEfCj9OPEXTPaKQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Payment.uml#_ywIvMCHEEfCj9OPEXTPaKQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Payment.uml#_ywIvMCHEEfCj9OPEXTPaKQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_HIVXZCHFEfCj9OPEXTPaKQ" type="StereotypeCommentLink" source="_2iuQACHEEfCj9OPEXTPaKQ" target="_HIVXYCHFEfCj9OPEXTPaKQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_HIVXZSHFEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HIVXaSHFEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Package" href="Payment.uml#_2itB4CHEEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HIVXZiHFEfCj9OPEXTPaKQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HIVXZyHFEfCj9OPEXTPaKQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HIVXaCHFEfCj9OPEXTPaKQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZbiFICHJEfCj9OPEXTPaKQ" type="InterfaceRealization_Edge" source="_RQTlkCHIEfCj9OPEXTPaKQ" target="_gfWYECHHEfCj9OPEXTPaKQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZbisMCHJEfCj9OPEXTPaKQ" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Fgd9gCHMEfCj9OPEXTPaKQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZbisMSHJEfCj9OPEXTPaKQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZbisMiHJEfCj9OPEXTPaKQ" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FglSQCHMEfCj9OPEXTPaKQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZbisMyHJEfCj9OPEXTPaKQ" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZbiFISHJEfCj9OPEXTPaKQ"/>
+    <element xmi:type="uml:InterfaceRealization" href="Payment.uml#_ZbdzsCHJEfCj9OPEXTPaKQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZbiFIiHJEfCj9OPEXTPaKQ" points="[500, 340, -643984, -643984]$[397, 340, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZbwHkCHJEfCj9OPEXTPaKQ" id="(0.0,0.3883495145631068)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZbwHkSHJEfCj9OPEXTPaKQ" id="(1.0,0.36036036036036034)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_a7tecCHJEfCj9OPEXTPaKQ" type="Generalization_Edge" source="_SPbq0CHJEfCj9OPEXTPaKQ" target="_RQTlkCHIEfCj9OPEXTPaKQ" routing="Tree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cjD2wCHJEfCj9OPEXTPaKQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cjD2wSHJEfCj9OPEXTPaKQ" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_a7tecyHJEfCj9OPEXTPaKQ" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FgyGkCHMEfCj9OPEXTPaKQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_a7tedCHJEfCj9OPEXTPaKQ" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_a7tecSHJEfCj9OPEXTPaKQ"/>
+    <element xmi:type="uml:Generalization" href="Payment.uml#_a7n-4CHJEfCj9OPEXTPaKQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a7teciHJEfCj9OPEXTPaKQ" points="[360, 460, -643984, -643984]$[580, 402, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a78H8CHJEfCj9OPEXTPaKQ" id="(0.43478260869565216,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a78H8SHJEfCj9OPEXTPaKQ" id="(0.49577464788732395,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zuPj8CHJEfCj9OPEXTPaKQ" type="Generalization_Edge" source="_fvy4gCHJEfCj9OPEXTPaKQ" target="_RQTlkCHIEfCj9OPEXTPaKQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zuPj8yHJEfCj9OPEXTPaKQ" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Fg4NMCHMEfCj9OPEXTPaKQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zuPj9CHJEfCj9OPEXTPaKQ" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zuPj8SHJEfCj9OPEXTPaKQ"/>
+    <element xmi:type="uml:Generalization" href="Payment.uml#_zuHoICHJEfCj9OPEXTPaKQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zuPj8iHJEfCj9OPEXTPaKQ" points="[580, 460, -643984, -643984]$[580, 402, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zukUECHJEfCj9OPEXTPaKQ" id="(0.4819277108433735,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zukUESHJEfCj9OPEXTPaKQ" id="(0.5633802816901409,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_DywJaCHKEfCj9OPEXTPaKQ" type="StereotypeCommentLink" source="_7xV3sCHJEfCj9OPEXTPaKQ" target="_DywJZCHKEfCj9OPEXTPaKQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_DywJaSHKEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_DywJbSHKEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Package" href="Payment.uml#_7xVQoCHJEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DywJaiHKEfCj9OPEXTPaKQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DywJayHKEfCj9OPEXTPaKQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DywJbCHKEfCj9OPEXTPaKQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PcJOaCHKEfCj9OPEXTPaKQ" type="StereotypeCommentLink" source="_GIc1cCHKEfCj9OPEXTPaKQ" target="_PcJOZCHKEfCj9OPEXTPaKQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PcJOaSHKEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PcJObSHKEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Payment.uml#_GIcOYCHKEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PcJOaiHKEfCj9OPEXTPaKQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PcJOayHKEfCj9OPEXTPaKQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PcJObCHKEfCj9OPEXTPaKQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_x-BuESHKEfCj9OPEXTPaKQ" type="StereotypeCommentLink" source="_x981kCHKEfCj9OPEXTPaKQ" target="_x-BHCiHKEfCj9OPEXTPaKQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_x-BuEiHKEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_x-BuFiHKEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Package" href="Payment.uml#_x97ncCHKEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x-BuEyHKEfCj9OPEXTPaKQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x-BuFCHKEfCj9OPEXTPaKQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x-BuFSHKEfCj9OPEXTPaKQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3d0XkCHKEfCj9OPEXTPaKQ" type="Generalization_Edge" source="_GIc1cCHKEfCj9OPEXTPaKQ" target="_fvy4gCHJEfCj9OPEXTPaKQ" routing="Rectilinear" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_52_1cCHKEfCj9OPEXTPaKQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_53AcgCHKEfCj9OPEXTPaKQ" key="routing" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9M6BUCHKEfCj9OPEXTPaKQ" key="avoidObstructions" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3d0-oCHKEfCj9OPEXTPaKQ" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="__hIGsCHKEfCj9OPEXTPaKQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3d0-oSHKEfCj9OPEXTPaKQ" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3d0XkSHKEfCj9OPEXTPaKQ"/>
+    <element xmi:type="uml:Generalization" href="Payment.uml#_3dtp4CHKEfCj9OPEXTPaKQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3d0XkiHKEfCj9OPEXTPaKQ" points="[360, 700, -643984, -643984]$[360, 600, -643984, -643984]$[580, 600, -643984, -643984]$[580, 560, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3eEPMCHKEfCj9OPEXTPaKQ" id="(0.4975124378109453,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3eE2QCHKEfCj9OPEXTPaKQ" id="(0.4819277108433735,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HRgSxCHLEfCj9OPEXTPaKQ" type="StereotypeCommentLink" source="_HRY-ACHLEfCj9OPEXTPaKQ" target="_HRgSwCHLEfCj9OPEXTPaKQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_HRgSxSHLEfCj9OPEXTPaKQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HRgSySHLEfCj9OPEXTPaKQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Payment.uml#_HRXv4CHLEfCj9OPEXTPaKQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HRgSxiHLEfCj9OPEXTPaKQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HRgSxyHLEfCj9OPEXTPaKQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HRgSyCHLEfCj9OPEXTPaKQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AAd4oCHMEfCj9OPEXTPaKQ" type="Generalization_Edge" source="_HRY-ACHLEfCj9OPEXTPaKQ" target="_fvy4gCHJEfCj9OPEXTPaKQ" routing="Rectilinear">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAd4oyHMEfCj9OPEXTPaKQ" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FGW0YCHMEfCj9OPEXTPaKQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAd4pCHMEfCj9OPEXTPaKQ" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AAd4oSHMEfCj9OPEXTPaKQ"/>
+    <element xmi:type="uml:Generalization" href="Payment.uml#_AAS5gCHMEfCj9OPEXTPaKQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAd4oiHMEfCj9OPEXTPaKQ" points="[680, 700, -643984, -643984]$[680, 600, -643984, -643984]$[580, 600, -643984, -643984]$[580, 560, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AA9A0CHMEfCj9OPEXTPaKQ" id="(0.5429864253393665,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AA9A0SHMEfCj9OPEXTPaKQ" id="(0.4819277108433735,1.0)"/>
+  </edges>
+</notation:Diagram>
