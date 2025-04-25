@@ -4,27 +4,27 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_5hFLQCGHEfCcr7jcRNiKPw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_-GpoMCGHEfCcr7jcRNiKPw" name="Profil">
-      <packagedElement xmi:type="uml:Package" xmi:id="_ObbeQCGIEfCcr7jcRNiKPw" name="MProfil">
+    <packagedElement xmi:type="uml:Package" xmi:id="_-GpoMCGHEfCcr7jcRNiKPw" name="Profile">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ObbeQCGIEfCcr7jcRNiKPw" name="MProfile">
         <packagedElement xmi:type="uml:Class" xmi:id="_mSztoCGJEfCcr7jcRNiKPw" name="User" visibility="package">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_aQcq0CGQEfCcr7jcRNiKPw" name="id" visibility="protected">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_gF5bQCGQEfCcr7jcRNiKPw" name="nama" visibility="protected">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gF5bQCGQEfCcr7jcRNiKPw" name="name" visibility="protected">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_iytm0CGQEfCcr7jcRNiKPw" name="email" visibility="protected">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_lV7xgCGQEfCcr7jcRNiKPw" name="noHP" visibility="protected">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lV7xgCGQEfCcr7jcRNiKPw" name="phoneNum" visibility="protected">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_o2vqACGJEfCcr7jcRNiKPw" name="ProfilImpl">
+        <packagedElement xmi:type="uml:Class" xmi:id="_o2vqACGJEfCcr7jcRNiKPw" name="ProfileImpl">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_suHUcCGaEfCdiLUm7eEAbQ" name="user" visibility="protected" type="_mSztoCGJEfCcr7jcRNiKPw"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_yxKKEiGcEfCdiLUm7eEAbQ" name="user" type="_mSztoCGJEfCcr7jcRNiKPw" association="_yxF4oCGcEfCdiLUm7eEAbQ"/>
           <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QEyjkCGaEfCdiLUm7eEAbQ" client="_o2vqACGJEfCcr7jcRNiKPw" supplier="_qjQPICGJEfCcr7jcRNiKPw" contract="_qjQPICGJEfCcr7jcRNiKPw"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_KuiC0CGVEfCdiLUm7eEAbQ" name="tampilProfil">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_KuiC0CGVEfCdiLUm7eEAbQ" name="showProfile">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_W3OOwCGcEfCdiLUm7eEAbQ" name="id">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
@@ -32,17 +32,17 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_LIurgCGVEfCdiLUm7eEAbQ" name="editProfil">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_LIurgCGVEfCdiLUm7eEAbQ" name="editProfile" concurrency="concurrent">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_e273UCGcEfCdiLUm7eEAbQ" name="id" effect="read">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hl70MCGcEfCdiLUm7eEAbQ" name="nama" effect="read">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hl70MCGcEfCdiLUm7eEAbQ" name="name" effect="read">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_j93U4CGcEfCdiLUm7eEAbQ" name="email" effect="read">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_nAsMsCGcEfCdiLUm7eEAbQ" name="noHP" effect="read">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_nAsMsCGcEfCdiLUm7eEAbQ" name="phoneNum" effect="read">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_o-lcwCGcEfCdiLUm7eEAbQ" direction="return" effect="read">
@@ -50,8 +50,8 @@
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_qjQPICGJEfCcr7jcRNiKPw" name="Profil">
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_JVqycCGVEfCdiLUm7eEAbQ" name="tampilProfil">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qjQPICGJEfCcr7jcRNiKPw" name="Profile">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_JVqycCGVEfCdiLUm7eEAbQ" name="showProfile">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_eOtPICGbEfCdiLUm7eEAbQ" name="id" effect="read">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
@@ -59,17 +59,17 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_KOpo4CGVEfCdiLUm7eEAbQ" name="editProfil">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_KOpo4CGVEfCdiLUm7eEAbQ" name="editProfile">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_y7lt4CGbEfCdiLUm7eEAbQ" name="id" effect="update">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1mspQCGbEfCdiLUm7eEAbQ" name="nama" effect="update">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1mspQCGbEfCdiLUm7eEAbQ" name="name" effect="update">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_41gHkCGbEfCdiLUm7eEAbQ" name="email" effect="update">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="__HitYCGbEfCdiLUm7eEAbQ" name="noHP" effect="update">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="__HitYCGbEfCdiLUm7eEAbQ" name="phoneNum" effect="update">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cu5OkCGcEfCdiLUm7eEAbQ" direction="return" effect="update">
@@ -78,12 +78,30 @@
           </ownedOperation>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Z8eqUCGuEfCjZLpzuGLT4w" name="DPoints">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2d5cYCGuEfCjZLpzuGLT4w" name="ProfileImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_FIEKwCGvEfCjZLpzuGLT4w" name="point">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZxFdMCGvEfCjZLpzuGLT4w" name="milestoneLevel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iOcrECGvEfCjZLpzuGLT4w"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_yxF4oCGcEfCdiLUm7eEAbQ" memberEnd="_yxKKEiGcEfCdiLUm7eEAbQ _yxXlcSGcEfCdiLUm7eEAbQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yxKKECGcEfCdiLUm7eEAbQ" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yxKKESGcEfCdiLUm7eEAbQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_yxXlcSGcEfCdiLUm7eEAbQ" name="profilimpl" type="_o2vqACGJEfCcr7jcRNiKPw" association="_yxF4oCGcEfCdiLUm7eEAbQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uLcBgCGvEfCjZLpzuGLT4w" memberEnd="_uLfE0CGvEfCjZLpzuGLT4w _uLfr4SGvEfCjZLpzuGLT4w" navigableOwnedEnd="_uLfE0CGvEfCjZLpzuGLT4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uLedwCGvEfCjZLpzuGLT4w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uLedwSGvEfCjZLpzuGLT4w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_uLfr4SGvEfCjZLpzuGLT4w" type="_2d5cYCGuEfCjZLpzuGLT4w" association="_uLcBgCGvEfCjZLpzuGLT4w"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_uLfE0CGvEfCjZLpzuGLT4w" type="_o2vqACGJEfCcr7jcRNiKPw" association="_uLcBgCGvEfCjZLpzuGLT4w"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5gJXICGHEfCcr7jcRNiKPw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5gPdwCGHEfCcr7jcRNiKPw" source="PapyrusVersion">
@@ -101,4 +119,9 @@
   </uml:Model>
   <umlvmprofile:vm xmi:id="_NLUhQCGIEfCcr7jcRNiKPw" base_Package="_-GpoMCGHEfCcr7jcRNiKPw"/>
   <umlvmprofile:module xmi:id="_W9m6sCGIEfCcr7jcRNiKPw" base_Package="_ObbeQCGIEfCcr7jcRNiKPw"/>
+  <umlvmprofile:delta xmi:id="_jw1gUCGuEfCjZLpzuGLT4w" base_Package="_Z8eqUCGuEfCjZLpzuGLT4w"/>
+  <umlvmprofile:modifiedClass xmi:id="_8iA68CGuEfCjZLpzuGLT4w" base_Class="_2d5cYCGuEfCjZLpzuGLT4w"/>
+  <umlvmprofile:adds xmi:id="_UtYSwCGvEfCjZLpzuGLT4w" base_Property="_FIEKwCGvEfCjZLpzuGLT4w"/>
+  <umlvmprofile:adds xmi:id="_c_f58CGvEfCjZLpzuGLT4w" base_Property="_ZxFdMCGvEfCjZLpzuGLT4w"/>
+  <umlvmprofile:modifies xmi:id="_1_kFICGvEfCjZLpzuGLT4w" base_Association="_uLcBgCGvEfCjZLpzuGLT4w"/>
 </xmi:XMI>
