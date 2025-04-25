@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlvmprofile="pathmap://UML_PROFILES/uml-vm-profile.profile.uml" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ pathmap://UML_PROFILES/uml-vm-profile.profile.uml pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml#_-5XC0I-gEe-JbtsgPnxLSg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlvmprofile="pathmap://UML_PROFILES/uml-vm-profile.profile.uml" xsi:schemaLocation="pathmap://UML_PROFILES/uml-vm-profile.profile.uml pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml#_-5XC0I-gEe-JbtsgPnxLSg">
   <uml:Model xmi:id="_hJBmECDpEfC6AqtRt3KP1g" name="Search">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_hLDmYCDpEfC6AqtRt3KP1g">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -74,7 +74,6 @@
   </uml:Model>
   <umlvmprofile:vm xmi:id="_Ys6qgCDrEfC6AqtRt3KP1g" base_Package="_VL6o8CDrEfC6AqtRt3KP1g"/>
   <umlvmprofile:module xmi:id="_jlRUICDrEfC6AqtRt3KP1g" base_Package="_iJD00CDrEfC6AqtRt3KP1g"/>
-  <ActionLanguage:TextualRepresentation xmi:id="_xvapMCDsEfC6AqtRt3KP1g" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
   <umlvmprofile:delta xmi:id="_4dO6ICDuEfC6AqtRt3KP1g" base_Package="_zlhkUCDuEfC6AqtRt3KP1g"/>
   <umlvmprofile:modifiedClass xmi:id="_9c4rACDuEfC6AqtRt3KP1g" base_Class="_76wJ4CDuEfC6AqtRt3KP1g"/>
   <umlvmprofile:adds xmi:id="_EKnHQCDvEfC6AqtRt3KP1g" base_Operation="_Ctnk0CDvEfC6AqtRt3KP1g"/>
