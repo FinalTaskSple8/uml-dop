@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlvmdop="http:///schemas/umlvmdop/_NUR08CEEEfCQGtWHGIhWjQ/0" xmlns:umlvmprofile="http:///schemas/umlvmprofile/_69Ln8CGqEfC5EsruAykNQw/4" xsi:schemaLocation="http:///schemas/umlvmdop/_NUR08CEEEfCQGtWHGIhWjQ/0 uml-vm-dop.profile.uml#_NUScASEEEfCQGtWHGIhWjQ http:///schemas/umlvmprofile/_69Ln8CGqEfC5EsruAykNQw/4 uml-vm-profile.profile.uml#_69MPACGqEfC5EsruAykNQw">
+  <uml:Model xmi:id="_QybiYCD6EfCqpaLOOl_AFw" name="HotelManagement-uml-dop">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_QyxgoCD6EfCqpaLOOl_AFw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Association" xmi:id="_78iBkCGpEfC5EsruAykNQw" memberEnd="_78m6ECGpEfC5EsruAykNQw _78oIMSGpEfC5EsruAykNQw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_78lr8CGpEfC5EsruAykNQw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_78lr8SGpEfC5EsruAykNQw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_78oIMSGpEfC5EsruAykNQw" name="manageroomsimpl" type="_ewGesCEcEfCQGtWHGIhWjQ" association="_78iBkCGpEfC5EsruAykNQw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ARq10CGqEfC5EsruAykNQw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ASNBUCGqEfC5EsruAykNQw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lOsiQCGqEfC5EsruAykNQw" name="HotelMangement">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JsZIQCEEEfCQGtWHGIhWjQ" name="MHotelManagement">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YfeiECEEEfCQGtWHGIhWjQ" name="ManageHotels"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dvK6ECEEEfCQGtWHGIhWjQ" name="ManageHotelsImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_nG8hwCEEEfCQGtWHGIhWjQ" name="id" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8vUL0CEZEfCQGtWHGIhWjQ" name="name" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Eq0p0CEaEfCQGtWHGIhWjQ" name="location" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ZXU6oCEFEfCQGtWHGIhWjQ" client="_dvK6ECEEEfCQGtWHGIhWjQ" supplier="_YfeiECEEEfCQGtWHGIhWjQ" contract="_YfeiECEEEfCQGtWHGIhWjQ"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_pFr60CEOEfCQGtWHGIhWjQ" name="addRoomToHotel" visibility="public" concurrency="concurrent">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_T7qxICEvEfCQGtWHGIhWjQ" name="rooms" type="_ewGetiEcEfCQGtWHGIhWjQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SN-G8CE0EfCQGtWHGIhWjQ"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eJ3DcCEvEfCQGtWHGIhWjQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NUTDFyEEEfCQGtWHGIhWjQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NUTDGCEEEfCQGtWHGIhWjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="uml-vm-dop.profile.uml#_NUScASEEEfCQGtWHGIhWjQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="uml-vm-dop.profile.uml#_NUPYsCEEEfCQGtWHGIhWjQ"/>
+        </profileApplication>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YHyt8CEcEfCQGtWHGIhWjQ" name="MRoomManagement">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YHyt8SEcEfCQGtWHGIhWjQ" name="ManageHotels"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YHyt8iEcEfCQGtWHGIhWjQ" name="ManageHotelsImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YHyt8yEcEfCQGtWHGIhWjQ" name="id" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YHyt9CEcEfCQGtWHGIhWjQ" name="name" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YHyt9SEcEfCQGtWHGIhWjQ" name="location" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_YHyt9iEcEfCQGtWHGIhWjQ" client="_YHyt8iEcEfCQGtWHGIhWjQ" supplier="_YHyt8SEcEfCQGtWHGIhWjQ" contract="_YHyt8SEcEfCQGtWHGIhWjQ"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_YHyt9yEcEfCQGtWHGIhWjQ" name="addRoomToHotel"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_YHyt-CEcEfCQGtWHGIhWjQ" name="MHotelManagement">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_YHyt-SEcEfCQGtWHGIhWjQ" name="ManageHotels"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YHyt-iEcEfCQGtWHGIhWjQ" name="ManageHotelsImpl">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_YHyt-yEcEfCQGtWHGIhWjQ" name="id" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_YHyt_CEcEfCQGtWHGIhWjQ" name="name" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_YHyt_SEcEfCQGtWHGIhWjQ" name="location" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_YHyt_iEcEfCQGtWHGIhWjQ" client="_YHyt-iEcEfCQGtWHGIhWjQ" supplier="_YHyt-SEcEfCQGtWHGIhWjQ" contract="_YHyt-SEcEfCQGtWHGIhWjQ"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_YHyt_yEcEfCQGtWHGIhWjQ" name="addRoomToHotel"/>
+          </packagedElement>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YHyuACEcEfCQGtWHGIhWjQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YHyuASEcEfCQGtWHGIhWjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="uml-vm-dop.profile.uml#_NUScASEEEfCQGtWHGIhWjQ"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="uml-vm-dop.profile.uml#_NUPYsCEEEfCQGtWHGIhWjQ"/>
+          </profileApplication>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ewGesCEcEfCQGtWHGIhWjQ" name="ManageRoomsImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ewGesSEcEfCQGtWHGIhWjQ" name="id" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ewGesiEcEfCQGtWHGIhWjQ" name="name" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ewGesyEcEfCQGtWHGIhWjQ" name="location" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7HqKICEcEfCQGtWHGIhWjQ" name="hotelId" visibility="protected" aggregation="shared">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-ZQdwCEcEfCQGtWHGIhWjQ" name="number" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lib4sCEdEfCQGtWHGIhWjQ" name="type" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_n4JL0CEdEfCQGtWHGIhWjQ" name="price" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xms70CEdEfCQGtWHGIhWjQ" name="isAvailable" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_78m6ECGpEfC5EsruAykNQw" name="managehotelsimpl" type="_dvK6ECEEEfCQGtWHGIhWjQ" association="_78iBkCGpEfC5EsruAykNQw"/>
+          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ewGetCEcEfCQGtWHGIhWjQ" client="_ewGesCEcEfCQGtWHGIhWjQ" supplier="_ewGetiEcEfCQGtWHGIhWjQ" contract="_ewGetiEcEfCQGtWHGIhWjQ"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ewGetSEcEfCQGtWHGIhWjQ" name="addRoomToHotel"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_XKfysCExEfCQGtWHGIhWjQ" name="getRoomByHotelId">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Hkb8cCE0EfCQGtWHGIhWjQ" name="listRoom" type="_ewGetiEcEfCQGtWHGIhWjQ" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nc3vcCE0EfCQGtWHGIhWjQ"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IhEj0CE0EfCQGtWHGIhWjQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ewGetiEcEfCQGtWHGIhWjQ" name="ManageRooms"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YHyuAiEcEfCQGtWHGIhWjQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YHyuAyEcEfCQGtWHGIhWjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="uml-vm-dop.profile.uml#_NUScASEEEfCQGtWHGIhWjQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="uml-vm-dop.profile.uml#_NUPYsCEEEfCQGtWHGIhWjQ"/>
+        </profileApplication>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bklJpiE3EfCQGtWHGIhWjQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bklJpyE3EfCQGtWHGIhWjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="uml-vm-profile.profile.uml#_69MPACGqEfC5EsruAykNQw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="uml-vm-profile.profile.uml#_cgZuICE2EfCQGtWHGIhWjQ"/>
+    </profileApplication>
+  </uml:Model>
+  <umlvmdop:module xmi:id="_NUTDGSEEEfCQGtWHGIhWjQ" base_Package="_JsZIQCEEEfCQGtWHGIhWjQ"/>
+  <umlvmdop:module xmi:id="_YH1xQCEcEfCQGtWHGIhWjQ" base_Package="_YHyt-CEcEfCQGtWHGIhWjQ"/>
+  <umlvmdop:module xmi:id="_xQNP8CE0EfCQGtWHGIhWjQ" base_Package="_YHyt8CEcEfCQGtWHGIhWjQ"/>
+  <umlvmprofile:vm xmi:id="_69WAACGqEfC5EsruAykNQw" base_Package="_lOsiQCGqEfC5EsruAykNQw"/>
+</xmi:XMI>
