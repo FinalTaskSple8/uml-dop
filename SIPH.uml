@@ -209,16 +209,12 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_FRhvUCHcEfCgttEN4k3d0Q" name="MSearch">
         <packagedElement xmi:type="uml:Class" xmi:id="_RLPvUCHcEfCgttEN4k3d0Q" name="SearchImpl">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_lzPuECHcEfCgttEN4k3d0Q" name="hotels" visibility="public">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteArray"/>
-          </ownedAttribute>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_wvuCsCHcEfCgttEN4k3d0Q" name="searchHotels" visibility="private">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lzPuECHcEfCgttEN4k3d0Q" name="hotels" visibility="public" type="_JlN1QCHgEfCgttEN4k3d0Q"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wvuCsCHcEfCgttEN4k3d0Q" name="searchHotels" visibility="protected">
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_1g3dgCHcEfCgttEN4k3d0Q" name="query">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4JJHUCHcEfCgttEN4k3d0Q" direction="return">
-              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteObject"/>
-            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4JJHUCHcEfCgttEN4k3d0Q" type="_JlN1QCHgEfCgttEN4k3d0Q" direction="return"/>
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_VL46QCHcEfCgttEN4k3d0Q" name="Search">
@@ -226,9 +222,7 @@
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_e_XmgCHcEfCgttEN4k3d0Q" name="query">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
-            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZjxACHcEfCgttEN4k3d0Q" direction="return">
-              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteObject"/>
-            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZjxACHcEfCgttEN4k3d0Q" type="_JlN1QCHgEfCgttEN4k3d0Q" direction="return"/>
           </ownedOperation>
         </packagedElement>
       </packagedElement>
