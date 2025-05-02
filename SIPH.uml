@@ -447,4 +447,7 @@
   <umlvmprofile:modifies xmi:id="_p87_8CHfEfCgttEN4k3d0Q" base_Association="_j_cGwCHfEfCgttEN4k3d0Q"/>
   <umlvmprofile:module xmi:id="_F0kOICHgEfCgttEN4k3d0Q" base_Package="_EbcfECHgEfCgttEN4k3d0Q"/>
   <umlvmprofile:module xmi:id="_sD_9oCHgEfCgttEN4k3d0Q" base_Package="_MOb6QCHgEfCgttEN4k3d0Q"/>
+  <umlvmprofile:adds xmi:id="_JUqfECc2EfCjjrzBn2hWxA" base_Operation="_hbbPsCayEfCPQ66HVz3OkQ"/>
+  <umlvmprofile:adds xmi:id="_LcyCICc2EfCjjrzBn2hWxA" base_Operation="_shCSMCayEfCPQ66HVz3OkQ"/>
+  <umlvmprofile:adds xmi:id="_MVqx8Cc2EfCjjrzBn2hWxA" base_Operation="_0IhA8CayEfCPQ66HVz3OkQ"/>
 </xmi:XMI>
